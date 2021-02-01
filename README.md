@@ -1,21 +1,15 @@
 # Snowdog iOS Recruitment test
 
-### Task 1
-Fork this repo :) Remember to commit changes after every task (if necessary ofc).
+### We are glad that you've joined SNOW.DOG recruitment process. Below is task for you, good luck!
 
-### Task 2
-Install test server - backend for the application.
-You can fetch it from [this repo](https://lab.snowdog.pro/open-source/server-for-mobile-recruitment-node.js).
-
-This should end with running server on http://localhost:8080/api/items.json
-
-### Task 3
-Implement following features:
-* Download data from /items.json and save it into local database. Remember: do not perform network communication in UI. thread.
-* Show items on the list from the local database.
-* Pull-to-refresh. When user pulls down the list then download data again and refresh the list.
-* Save images in cache - do not download image from the server every time.
-* Search - when user types string into the SearchBar, narrow down the list content to data that fits the query (contains text, case insensitive)
-
-## Thats it!
-Send us link to your repo and wait for answer. Bye!
+1. Fork this repo to your github.
+2. The repository contains Xcode project template. You can use whatever library, design patterns and dependency injection you want. You can add and modify all the things you want.
+3. Implement following features:
+* Build a Github app which show logged users feed,
+* Use OAuth 2 for authentication,
+* Cache home feed for optimisation data usage and offline mode,
+* Feed should be presented as a list with ability to switching single cell layout to grid,
+* Implemented repos search feature,
+* Implement filtering feed feature,
+* Implemented repo details screen.
+4. Thats it! Send us link to your repo and wait for answer. Bye!
